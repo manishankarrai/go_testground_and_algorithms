@@ -8,3 +8,4 @@
 2026/01/10 13:36:12 common.go:58: File appended successfully
 2026/01/10 13:36:22 testPlayground.go:9: hello world!
 2026/01/10 13:36:22 common.go:58: File appended successfully
+2026/01/11 21:04:55 common.go:39: Error loading .env file
