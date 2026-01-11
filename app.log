@@ -9,3 +9,81 @@
 2026/01/10 13:36:22 testPlayground.go:9: hello world!
 2026/01/10 13:36:22 common.go:58: File appended successfully
 2026/01/11 21:04:55 common.go:39: Error loading .env file
+2026/01/11 21:25:09 common.go:55: Append failed:failed to open destination file: open codehistory/brute_force/hello.go: no such file or directory
+2026/01/11 21:25:33 common.go:58: File appended successfully
+2026/01/11 21:25:33 testPlayground.go:11: hello world!
+2026/01/11 21:36:33 testPlayground.go:10: hello world!
+2026/01/11 21:36:47 common.go:55: Append failed:failed to open destination file: open codehistory/: is a directory
+2026/01/11 21:37:23 common.go:49: file is created with name 
+2026/01/11 21:37:23 common.go:56: Append failed:failed to open destination file: open codehistory/: is a directory
+2026/01/11 22:32:58 common.go:92: filenamearray [brute_force_hello.go]
+2026/01/11 22:32:58 common.go:49: file is created with name 
+2026/01/11 22:32:58 common.go:56: Append failed:failed to open destination file: open codehistory/: is a directory
+2026/01/11 22:34:26 common.go:95: filenamearray [brute_force_hello.go]
+2026/01/11 22:34:26 common.go:49: file is created with name brute_force_hello.go
+2026/01/11 22:34:26 common.go:59: File appended successfully
+2026/01/11 22:34:26 testPlayground.go:11: hello world!
+2026/01/11 22:34:42 common.go:95: filenamearray [brute_force_hello.go]
+2026/01/11 22:34:42 common.go:49: file is created with name brute_force_hello.go
+2026/01/11 22:34:42 common.go:59: File appended successfully
+2026/01/11 22:34:42 testPlayground.go:11: hello world!
+2026/01/11 22:35:23 common.go:95: filenamearray [create brutal file in go.go]
+2026/01/11 22:35:23 common.go:49: file is created with name 
+2026/01/11 22:35:23 common.go:56: Append failed:failed to open destination file: open codehistory/: is a directory
+2026/01/11 22:37:31 common.go:50: file is created with name create_brutal_file_in_go.go
+2026/01/11 22:37:31 common.go:60: File appended successfully
+2026/01/11 22:37:31 testPlayground.go:11: hello world!
+2026/01/11 22:50:37 testPlayground.go:11: hello world!
+2026/01/11 22:50:37 testPlayground.go:13: input: abc
+2026/01/11 22:50:37 testPlayground.go:15: result:  [a ab b]
+2026/01/11 23:11:14 testPlayground.go:26: {All substrings of a given String map[] <nil> <nil> Recovered from panic: assignment to entry in nil map 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:12:00 testPlayground.go:26: {All substrings of a given String map[] <nil> <nil> Recovered from panic: assignment to entry in nil map 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:12:28 testPlayground.go:26: {All substrings of a given String map[] <nil> <nil> Recovered from panic: assignment to entry in nil map 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:12:56 testPlayground.go:25: panic found...... assignment to entry in nil map
+2026/01/11 23:12:56 testPlayground.go:27: {All substrings of a given String map[] <nil> <nil> Recovered from panic: assignment to entry in nil map 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:17:56 testPlayground.go:34: result: {Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:<nil> Result:[a ab b] Error:<nil> StartAt:0001-01-01 00:00:00 +0000 UTC EndAt:0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:19:51 testPlayground.go:35: result: {Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error:<nil> StartAt:0001-01-01 00:00:00 +0000 UTC EndAt:0001-01-01 00:00:00 +0000 UTC}
+2026/01/11 23:20:46 testPlayground.go:38: result: {Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error:<nil> StartAt:2026-01-11 23:20:46.005174847 +0530 IST m=+0.000493499 EndAt:2026-01-11 23:20:46.005185227 +0530 IST m=+0.000503848}
+2026/01/11 23:21:08 testPlayground.go:38: result: {All substrings of a given String map[str:abc] [a ab abc b bc c] [a ab b] <nil> 2026-01-11 23:21:08.022920607 +0530 IST m=+0.000461086 2026-01-11 23:21:08.022931618 +0530 IST m=+0.000472067}
+2026/01/11 23:21:13 testPlayground.go:38: result: {Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error:<nil> StartAt:2026-01-11 23:21:13.645860157 +0530 IST m=+0.000283149 EndAt:2026-01-11 23:21:13.645866789 +0530 IST m=+0.000289771}
+2026/01/12 00:25:43 common.go:92: [System Ready] File and MongoDB logging linked
+2026/01/12 00:25:43 testPlayground.go:28: result: {RunDetailId:00000000-0000-0000-0000-000000000000 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:25:43.721424292 +0530 IST m=+0.005317911 EndAt:2026-01-12 00:25:43.721426275 +0530 IST m=+0.005319895}
+2026/01/12 00:27:57 common.go:92: [System Ready] File and MongoDB logging linked
+2026/01/12 00:27:57 testPlayground.go:28: result: {RunDetailId:00000000-0000-0000-0000-000000000000 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:27:57.948645014 +0530 IST m=+0.003588349 EndAt:2026-01-12 00:27:57.948649823 +0530 IST m=+0.003593148}
+2026/01/12 00:30:49 common.go:92: [System Ready] File and MongoDB logging linked
+2026/01/12 00:30:49 testPlayground.go:31: result: {RunDetailId:500bc8c6-769e-4eaf-bd45-7e38dba1d404 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:30:49.111211799 +0530 IST m=+0.006332183 EndAt:2026-01-12 00:30:49.11121769 +0530 IST m=+0.006338074}
+2026/01/12 00:32:07 common.go:92: [System Ready] File and MongoDB logging linked
+2026/01/12 00:32:07 testPlayground.go:32: result: {RunDetailId:12ce5508-6ecf-43c4-814b-e13e1d0db0c5 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:32:07.025652578 +0530 IST m=+0.003512362 EndAt:2026-01-12 00:32:07.025659451 +0530 IST m=+0.003519225}
+2026/01/12 00:33:27 common.go:92: [System Ready] File and MongoDB logging linked
+2026/01/12 00:33:27 testPlayground.go:32: result: {RunDetailId:c4479334-8fda-47af-bde8-9382b741bcb9 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:33:27.415705326 +0530 IST m=+0.005399213 EndAt:2026-01-12 00:33:27.415717629 +0530 IST m=+0.005411506}
+2026/01/12 00:33:53 common.go:93: [System Ready] File and MongoDB logging linked
+2026/01/12 00:33:53 testPlayground.go:32: result: {RunDetailId:646f9919-5e00-41a0-95eb-5f50c3978b7d Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:33:53.931692822 +0530 IST m=+0.004268502 EndAt:2026-01-12 00:33:53.931709484 +0530 IST m=+0.004285164}
+2026/01/12 00:34:53 common.go:87: [System Ready] File and MongoDB logging linked
+2026/01/12 00:34:53 testPlayground.go:32: result: {RunDetailId:71fa99c9-a827-431a-bdce-76aea7da1513 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:34:53.102263592 +0530 IST m=+0.003988471 EndAt:2026-01-12 00:34:53.102273261 +0530 IST m=+0.003998139}
+2026/01/12 00:36:30 common.go:87: [System Ready] File and MongoDB logging linked
+2026/01/12 00:36:30 testPlayground.go:32: result: {RunDetailId:b62b182b-4e09-4b37-8c5a-522ca62aad55 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:36:30.376305818 +0530 IST m=+0.004074493 EndAt:2026-01-12 00:36:30.376319094 +0530 IST m=+0.004087778}
+2026/01/12 00:36:45 common.go:87: [System Ready] File and MongoDB logging linked
+2026/01/12 00:36:45 testPlayground.go:32: result: {RunDetailId:4937aab8-fe84-48b5-96c7-50e4378317ee Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:36:45.957358776 +0530 IST m=+0.003618881 EndAt:2026-01-12 00:36:45.957375728 +0530 IST m=+0.003635833}
+2026/01/12 00:38:24 common.go:87: [System Ready] File and MongoDB logging linked
+2026/01/12 00:38:24 testPlayground.go:32: result: {RunDetailId:64b78433-2b7b-442b-99a5-aee47ee9c5a5 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:38:24.622320349 +0530 IST m=+0.003724998 EndAt:2026-01-12 00:38:24.622330639 +0530 IST m=+0.003735288}
+2026/01/12 00:41:42 common.go:112: [System Ready] File and MongoDB logging linked
+2026/01/12 00:41:42 testPlayground.go:32: result: {RunDetailId:8eedc3f6-efe3-479b-88c9-f81378aad50d Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:41:42.465163472 +0530 IST m=+0.005652557 EndAt:2026-01-12 00:41:42.465175715 +0530 IST m=+0.005664800}
+2026/01/12 00:42:40 common.go:112: [System Ready] File and MongoDB logging linked
+2026/01/12 00:42:40 testPlayground.go:32: result: {RunDetailId:8230f737-5091-4f30-910a-5dee27d84bfd Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:42:40.617998989 +0530 IST m=+0.003730920 EndAt:2026-01-12 00:42:40.618010181 +0530 IST m=+0.003742122}
+2026/01/12 00:42:42 common.go:71: Syncing logs to MongoDB...
+2026/01/12 00:42:42 common.go:83: MongoDB connection closed gracefully.
+2026/01/12 00:54:54 common.go:112: [System Ready] File and MongoDB logging linked
+2026/01/12 00:54:54 testPlayground.go:35: result: {RunDetailId:0170b2bd-7de7-454d-bbd8-3231b09b05ae Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 00:54:54.217263743 +0530 IST m=+0.004393152 EndAt:2026-01-12 00:54:54.21727282 +0530 IST m=+0.004402219}
+2026/01/12 00:54:54 common.go:194: Successfully saved run detail to MongoDB
+2026/01/12 00:54:56 common.go:71: Syncing logs to MongoDB...
+2026/01/12 00:54:56 common.go:83: MongoDB connection closed gracefully.
+2026/01/12 01:02:18 common.go:112: [System Ready] File and MongoDB logging linked
+2026/01/12 01:02:18 testPlayground.go:35: result: {RunDetailId:a02e4a18-d672-46ca-b867-c14d02f3fab9 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 01:02:18.428199794 +0530 IST m=+0.004279204 EndAt:2026-01-12 01:02:18.42821351 +0530 IST m=+0.004292910}
+2026/01/12 01:02:18 common.go:194: Successfully saved run detail to MongoDB
+2026/01/12 01:02:20 common.go:71: Syncing logs to MongoDB...
+2026/01/12 01:02:20 common.go:83: MongoDB connection closed gracefully.
+2026/01/12 01:12:28 common.go:113: [System Ready] File and MongoDB logging linked
+2026/01/12 01:12:28 testPlayground.go:35: result: {RunDetailId:cd0f91b0-19ce-4e7a-8ab2-022cc4bf4f70 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 01:12:28.16847191 +0530 IST m=+0.006000411 EndAt:2026-01-12 01:12:28.168484694 +0530 IST m=+0.006013205}
+2026/01/12 01:12:30 common.go:72: Syncing logs to MongoDB...
+2026/01/12 01:12:30 common.go:84: MongoDB connection closed gracefully.
+2026/01/12 01:15:32 testPlayground.go:35: result: {RunDetailId:d204255e-3fcc-4122-92b4-d34b4b5ca350 Problem:All substrings of a given String Input:map[str:abc] ExpectedResult:[a ab abc b bc c] Result:[a ab b] Error: StartAt:2026-01-12 01:15:32.787575294 +0530 IST m=+0.004799774 EndAt:2026-01-12 01:15:32.78758916 +0530 IST m=+0.004813640}

@@ -2,6 +2,11 @@ package constant
 
 import "test/models"
 
+const (
+	LogTypeManual = "manual"
+	LogTypeAuto   = "auto"
+)
+
 var Lista = []models.StudentList{
 	{
 		Student: models.Student{
