@@ -1,0 +1,10 @@
+2026/01/10 13:19:52 common.go:38: configuration done
+2026/01/10 13:21:09 testPlayground.go:6: hello world!
+2026/01/10 13:21:15 testPlayground.go:6: hello world!
+2026/01/10 13:21:18 testPlayground.go:6: hello world!
+2026/01/10 13:35:58 testPlayground.go:9: hello world!
+2026/01/10 13:35:58 common.go:58: File appended successfully
+2026/01/10 13:36:12 testPlayground.go:9: hello world!
+2026/01/10 13:36:12 common.go:58: File appended successfully
+2026/01/10 13:36:22 testPlayground.go:9: hello world!
+2026/01/10 13:36:22 common.go:58: File appended successfully
